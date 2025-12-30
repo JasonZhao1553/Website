@@ -1,75 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Jason Zhao</title>
+  <link rel="stylesheet" href="styles.css">
 
   <!-- Font Awesome for social icons -->
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   />
-
-  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <!-- Top Navigation -->
-  <header class="top-bar">
-    <nav class="top-links">
+  <div class="top-bar">
+    <div class="top-links">
       <a href="CV.pdf" target="_blank">CV</a>
       <a href="#">Projects</a>
-    </nav>
-  </header>
+    </div>
+  </div>
 
   <!-- Main Content -->
-  <main class="main-container">
-    <section class="content-wrapper">
-      <div class="left-text">
+  <div class="main-wrapper">
+    <div class="main-container">
+
+      <!-- Left Text -->
+      <div class="text-section">
         <h1>Jason Zhao</h1>
-        <p class="role">Robotics Researcher @ Perception Robotics Group</p>
-        <p class="education">Undergraduate @ University of Maryland, Class of 2026</p>
+        <p>
+          Robotics Researcher @ Perception Robotics Group<br>
+          Undergraduate @ University of Maryland<br>
+          Class of 2026
+        </p>
       </div>
 
-      <div class="right-image">
-        <img src="headshot.jpg" alt="Jason Zhao headshot" />
+      <!-- Right Image -->
+      <div class="image-section">
+        <img src="headshot.jpg" alt="Jason Zhao Headshot" class="headshot">
       </div>
-    </section>
-  </main>
 
-  <!-- Description Section -->
-  <section class="description">
-    <p>
-      Bringing physical intuition to robotics. Currently working on putting with
-      UR10 robot arm with Perception Robotics Group.
-    </p>
+    </div>
+  </div>
 
-    <p class="pi">
-      PI: Yiannis Aloimonos<br />
-      Advisor: Levi Burner
+  <!-- Research Statement -->
+  <div class="research-section">
+    <p class="research-lead">
+      Bringing physical intuition to robotics.
     </p>
 
     <p>
-      Previously performed cybersecurity research via a collobration between
-      RunSafe Security and Linkoping University investigating quantifiying a
-      binary's attack surface to Return Oriented Programming Attacks.
+      Currently working on putting with a UR10 robot arm with the Perception Robotics Group.<br>
+      <strong>PI:</strong> Yiannis Aloimonos<br>
+      <strong>Advisor:</strong> Levi Burner
     </p>
 
-    <p class="pi">
-      PI: Ulf Kargen
+    <p>
+      Previously performed cybersecurity research via a collaboration between RunSafe Security
+      and Linköping University investigating quantifying a binary's attack surface to
+      Return-Oriented Programming attacks.<br>
+      <strong>PI:</strong> Ulf Kargén
     </p>
-  </section>
+  </div>
 
-  <!-- Footer -->
+  <!-- Bottom Social Icons -->
   <footer>
     <a href="https://github.com/JasonZhao1553" target="_blank" aria-label="GitHub">
-      <i class="fab fa-github"></i>
+      <i class="fa-brands fa-github"></i>
     </a>
     <a href="https://www.linkedin.com/in/jason--zhao/" target="_blank" aria-label="LinkedIn">
-      <i class="fab fa-linkedin"></i>
+      <i class="fa-brands fa-linkedin"></i>
     </a>
     <a href="https://youtube.com/@jasonzhao-q5o?si=sTO780jM-Ge_OAlo" target="_blank" aria-label="YouTube">
-      <i class="fab fa-youtube"></i>
+      <i class="fa-brands fa-youtube"></i>
     </a>
   </footer>
 
