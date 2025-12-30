@@ -1,56 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Jason Zhao</title>
-  <link rel="stylesheet" href="styles.css">
 
   <!-- Font Awesome for social icons -->
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <!-- Top Navigation -->
-  <div class="top-bar">
-    <div class="top-links">
-      <a href="#">CV</a>
+  <header class="top-bar">
+    <nav class="top-links">
+      <a href="CV.pdf" target="_blank">CV</a>
       <a href="#">Projects</a>
-    </div>
-  </div>
+    </nav>
+  </header>
 
   <!-- Main Content -->
-  <div class="main-container">
+  <main class="main-container">
+    <section class="content-wrapper">
+      <div class="left-text">
+        <h1>Jason Zhao</h1>
+        <p class="role">Robotics Researcher @ Perception Robotics Group</p>
+        <p class="education">Undergraduate @ University of Maryland, Class of 2026</p>
+      </div>
 
-    <!-- Left Text -->
-    <div class="text-section">
-      <h1>Jason Zhao</h1>
-      <p>
-        Robotics Researcher @ Perception Robotics Group<br>
-        Undergraduate @ University of Maryland<br>
-        Class of 2026
-      </p>
-    </div>
+      <div class="right-image">
+        <img src="headshot.jpg" alt="Jason Zhao headshot" />
+      </div>
+    </section>
+  </main>
 
-    <!-- Right Image -->
-    <div class="image-section">
-      <img src="headshot.jpg" alt="Jason Zhao Headshot" class="headshot">
-    </div>
+  <!-- Description Section -->
+  <section class="description">
+    <p>
+      Bringing physical intuition to robotics. Currently working on putting with
+      UR10 robot arm with Perception Robotics Group.
+    </p>
 
-  </div>
+    <p class="pi">
+      PI: Yiannis Aloimonos<br />
+      Advisor: Levi Burner
+    </p>
 
-  <!-- Bottom Social Icons -->
+    <p>
+      Previously performed cybersecurity research via a collobration between
+      RunSafe Security and Linkoping University investigating quantifiying a
+      binary's attack surface to Return Oriented Programming Attacks.
+    </p>
+
+    <p class="pi">
+      PI: Ulf Kargen
+    </p>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <a href="https://github.com/yourusername" target="_blank">
-      <i class="fa-brands fa-github"></i>
+    <a href="https://github.com/JasonZhao1553" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
     </a>
-    <a href="https://linkedin.com/in/yourusername" target="_blank">
-      <i class="fa-brands fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/jason--zhao/" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin"></i>
     </a>
-    <a href="https://youtube.com/@yourusername" target="_blank">
-      <i class="fa-brands fa-youtube"></i>
+    <a href="https://youtube.com/@jasonzhao-q5o?si=sTO780jM-Ge_OAlo" target="_blank" aria-label="YouTube">
+      <i class="fab fa-youtube"></i>
     </a>
   </footer>
 
