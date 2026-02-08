@@ -102,3 +102,47 @@ footer a {
 footer a:hover {
   color: #555;
 }
+.shorts-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 380px;      /* shorts-like phone width */
+  margin: 24px auto;
+  aspect-ratio: 9 / 16;  /* vertical */
+  border-radius: 16px;
+  overflow: hidden;      /* keeps rounded corners clean */
+}
+
+.shorts-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Landscape Video Wrapper */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 32px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Maintain 16:9 aspect ratio */
+.video-wrapper::before {
+  content: '';
+  display: block;
+  padding-top: 39.6%; /* 603/1524 * 100 for the specific aspect ratio */
+}
